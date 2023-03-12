@@ -5,4 +5,4 @@ O objetivo desse projeto é criar um modelo para o reconhecimento dos dígitos d
 
 Em breve ser feito algumas alterações.
 
-<img src="https://github.com/natan3536/Portifolio/blob/main/Projeto%201%20-%20Reconhecimento%20de%20digitacao/output.png/>
+<img src="https://github.com/natan3536/Portifolio/blob/main/Projeto%201%20-%20Reconhecimento%20de%20digitacao/output.png"/>
