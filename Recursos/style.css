@@ -9,6 +9,11 @@ h1 {
 
 header {
     background-color: #2F4F4F;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .cabeçalho {
