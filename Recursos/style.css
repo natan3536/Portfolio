@@ -17,8 +17,8 @@ bold {
 }
 
 .cabecalho {
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-around !important;
     box-sizing: border-box;
     margin: auto 0;
     background-color: #2F4F4F;
