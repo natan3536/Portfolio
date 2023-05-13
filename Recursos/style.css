@@ -1,22 +1,140 @@
 h1 {
-    font-family: Helvetica;
-    font-size: 100px;
-    font-weight: bold;
-    color: khaki;
-    background-color: #778899;
-
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
-header {
+bold {
+    font-family: Times "Times New Roman" serif;
+    font-size: 12px;
+}
+
+.fixo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 400;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: auto 0;
     background-color: #2F4F4F;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    align-items: center;
+}
+.index {
+    display: flex;
+    margin: auto 0;
+    font-size: 30px;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
 }
 
-.cabeçalho {
-    box-sizing: border-box;
+.Nome {
+    display: flex;
     margin: auto 0;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#port {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: khaki
+}
+
+a {
+    color: #f8f8f8;
+    text-decoration: none;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+
+a:hover {
+    color: khaki;
+    text-decoration: none;
+  }
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-color: #778899;
+    width: 110%;
+    align-items: center;
+    margin-inline-start: -5%;
+}
+
+
+#perfil {
+    height: 200px;
+    width: 200px;
+    margin: 50px 0;
+    border-radius: 50%;
+}
+
+.descricao {
+    color: khaki;
+    margin-inline-start: -10%;
+}
+
+.descricao h2 {
+    color: #ffff00;
+}
+
+.descricao h1 {
+    color: #ffff56;
+    text-align: left !important;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+#gitlink {
+    width: 35px;
+    height: 35px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.margin {
+    margin: auto 10%;
+}
+
+#sobre {
+    width: 70%;
+    margin: 0 10px;
+}
+
+#inf {
+    width: 30%;
+    margin: 0 10px;
+}
+
+#formacao {
+    width: 50%;
+    margin: 0 10px;
+}
+
+#Exp {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.title {
+    color: #6c757d;
+    margin-bottom: -10px !important;
+    margin-top: -10px;
 }
