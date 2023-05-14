@@ -27,7 +27,7 @@ bold {
 .index {
     display: flex;
     margin: auto 0;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
@@ -49,14 +49,18 @@ bold {
     color: khaki
 }
 
-a {
+.Nome a {
+    text-decoration: none;
+}
+
+.index a {
     color: #f8f8f8;
     text-decoration: none;
     background-color: transparent;
     margin-right: 10px;
   }
 
-a:hover {
+.index a:hover {
     color: khaki;
     text-decoration: none;
   }
@@ -74,8 +78,8 @@ a:hover {
 
 
 #perfil {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: 50px 0;
     border-radius: 50%;
 }
@@ -92,11 +96,6 @@ a:hover {
 .descricao h1 {
     color: #ffff56;
     text-align: left !important;
-}
-
-.contato {
-    display: flex;
-    justify-content: center;
 }
 
 #gitlink {
@@ -123,12 +122,12 @@ a:hover {
     margin: 0 10px;
 }
 
-#formacao {
+.formacao {
     width: 50%;
     margin: 0 10px;
 }
 
-#Exp {
+.Exp {
     width: 50%;
     margin: 0 10px;
 }
@@ -136,5 +135,60 @@ a:hover {
 .title {
     color: #6c757d;
     margin-bottom: -10px !important;
-    margin-top: -10px;
+    margin-top: -15px;
+}
+
+.descri {
+    font-size: 14px;
+}
+
+.ling {
+    width: 20%;
+    margin: 0 10px;
+}
+
+.Esta {
+    width: 40%;
+    margin: 0 10px;
+}
+
+.soft {
+    width: 20%;
+    margin: 0 10px;
+}
+
+.idio {
+    width: 20%;
+    margin: 0 10px;
+}
+
+.tamanhoimg {
+    width: 110px;
+    height: 110px;
+}
+
+.center {
+    align-items: center;;
+}
+
+.marginint {
+    margin: auto 10px;
+}
+
+#Contato {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    background-color: #2F4F4F;
+    align-items: center;
+}
+
+.cont1{
+    align-items: center;
+    margin: 10px;
+}
+
+img {
+    margin: auto 10px;
 }
